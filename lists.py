@@ -74,3 +74,36 @@ print(nums);
 del nums[2:4]
 
 print(nums)
+
+# add the elements into lists
+
+nums.extend([44,56,11,99])
+
+print(nums)
+
+# replace particular indexed elements in lists
+
+nums[2:4] = [54,76]
+
+print(nums)
+
+# reverse a list
+
+nums.reverse()
+
+print(nums)
+
+# min number
+
+print(min(nums))
+
+# max number 
+
+print(max(nums))
+
+# sum of numbers
+
+print(sum(nums))
+
+print(min(names))
+
